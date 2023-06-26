@@ -1,0 +1,122 @@
+html {
+    background-color: rgb(253, 251, 251);
+  }
+  
+  body {
+    background-color: rgb(253, 251, 251);
+    padding: 0;
+    margin: 0;
+    font-family: Arial Narrow Bold, sans-serif;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+  
+  header {
+    background-color: rgba(30, 183, 32, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  header > h1 > a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  header > h1 > a:hover {
+    color: rgb(27, 79, 6);
+    text-decoration: underline;
+  }
+  
+  main {
+    margin: 100px 70px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #minha_foto {
+    width: 15rem;
+    height: 18rem;
+  }
+  
+  #picture_list {
+    display: flex;
+    gap: 10rem;
+  }
+  
+  #licoes {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  #licoes_aprendidas li,
+  #licoes_a_aprender li {
+    margin-top: 10px;
+  }
+  
+  ul ::marker {
+    color: rgb(27, 79, 6);
+  }
+  
+  #article_aside {
+    display: flex;
+    width: 40%;
+    padding: 20px;
+    gap: 20px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .lado_esquerdo {
+    border-right: 2px solid rgb(27, 79, 6);
+  }
+  
+  table,
+  th,
+  td {
+    border-collapse: collapse;
+    border: 2px solid rgb(27, 79, 6);
+    text-align: center;
+    width: 30%;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: rgb(27, 79, 6);
+  }
+  
+  table {
+    margin: 50px 0 150px;
+    padding: 20px;
+  }
+  
+  th {
+    padding: 5px;
+  }
+  
+  tr {
+    margin: 10px;
+  }
+  
+  footer {
+    background-color: rgba(30, 183, 32, 255);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    margin-top: 100px;
+  }
+  
+  footer > h4 > a {
+    color: white;
+    text-align: center;
+    margin: 0;
+    text-decoration: none;
+  }
+  
+  footer > h4 > a:hover {
+    color: rgb(27, 79, 6);
+    text-decoration: underline;
+  }
